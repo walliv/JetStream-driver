@@ -49,6 +49,28 @@ enum fpga_data_direction {
 
 
 /*DMA destination enumeration*/
-typedef enum dma_type {hostddr,ddrhost,hostuser1,hostuser2,hostuser3,hostuser4,user1host,user2host,user3host,user4host,ddruser1,ddruser2,ddruser3,ddruser4,user1ddr,user2ddr,user3ddr,user4ddr,enet,user,config} DMA_TYPE;
+typedef enum dma_type {
+    hostddr,
+	ddrhost,
+	hostuser1,
+	hostuser2,
+	hostuser3,
+	hostuser4,
+	user1host,
+	user2host,
+	user3host,
+	user4host,
+	ddruser1,
+	ddruser2,
+	ddruser3,
+	ddruser4,
+	user1ddr,
+	user2ddr,
+	user3ddr,
+	user4ddr,
+	enet,
+	user,
+	config
+} DMA_TYPE;
 
 #endif
